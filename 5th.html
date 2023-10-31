@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Zhentong's personal website!</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- ------------------------------------------------- -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/fullpage.min.css" />
+    <!-- 引入外部字体连接 -->
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2935587_97eo1d0furr.css" />
+    <!-- 引入animate -->
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <link rel="stylesheet" href="./css/style-1.css" />
+    <link rel="stylesheet" href="./css/style-2.css" />
+    <link rel="stylesheet" href="./css/style-3.css" />
+    <link rel="stylesheet" href="./css/style-4.css" />
+    <link rel="stylesheet" href="./css/style-5.css" />
+    <link rel="stylesheet" href="./css/jaliswall.css" />
+    <!-- ------------------------------------------------- -->
+    <script src="js/jQuery.mini.js"></script>
+    <script src="js/fullpage.min.js"></script>
+    <script src="js/jaliswall.js"></script>
+    <script src="js/index.js"></script>
+    <style>
+        /* 轮播圆点颜色 */
+        #fp-nav ul li a span {
+            background-color: #fff !important;
+        }
+
+        /* 左右滑块的样式 */
+        .fp-bottom ul {
+            width: 100%;
+            text-align: center;
+        }
+
+        /* 三屏的圆点颜色 */
+        .fp-bottom ul li a span {
+            background-color: rgb(255, 255, 255);
+        }
+
+        body {
+            background-image: linear-gradient(#48f1d5, #fff, #ffa4a4);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 设置背景音乐 -->
+    <audio autoplay="autoplay" loop="loop" preload="auto" src="music/起风了（Cover 高橋優） - 买辣椒也用券.mp3">
+    </audio>
+
+    <div id="dowebok">
+    
+        <!-- <h3>不动</h3> -->
+        <div class="section sec2" id="section2">
+            <!-- 背景小圆点 -->
+            <div class="sec1_circle1"></div>
+            <div class="sec1_circle2"></div>
+            <div class="sec2_circle1"></div>
+            <div class="sec2_circle2"></div>
+            <div class="sec2_circle3"></div>
+            <!-- 上面导航 -->
+            <div class="sec2_main">
+                <div class="sec2_main_head">
+                    <ul>
+                        <li>
+                            <a href="index.html">Info</a>
+                        </li>
+                        <li><a href="2nd.html">Skills</a></li>
+                        <li><a href="3rd.html">Contact</a></li>
+                        <li><a href="4th.html">Life photos</a></li>
+                        <li class="current1"><a href="#">A fun cartoon movie</a></li>
+                    </ul>
+                </div>
+                <!-- 每页内容 -->
+                <div class="sec2_main_body">
+                    
+                    <!-- 第六页 -->
+                    <div class="sec2_main_body_content">
+                            <video src="music/zwi.mp4" autoplay muted loop controls></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------------------------------------------- -->
+    <!-- 官网提供的 axios 在线地址 -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- 引入在线axios地址 -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="./js/vue.js"></script>
+</body>
+
+</html>
