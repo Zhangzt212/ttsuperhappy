@@ -19,35 +19,6 @@
     bottom: 30%;
     left: 20%;
 }
-.sec2_circle2 {
-    background: white;
-    background: linear-gradient(
-        to right bottom,
-        rgba(206, 255, 228, 0.8),
-        rgba(255, 255, 255, 0.3)
-    );
-    height: 20rem;
-    width: 20rem;
-    position: absolute;
-    border-radius: 10%;
-    top: 30%;
-    right: 10%;
-    transform: rotate(45deg);
-}
-.sec2_circle3 {
-    background: white;
-    background: linear-gradient(
-        to right bottom,
-        rgba(255, 225, 225, 0.8),
-        rgba(255, 255, 255, 0.3)
-    );
-    height: 20rem;
-    width: 20rem;
-    position: absolute;
-    border-radius: 10%;
-    bottom: -5%;
-    right: 40%;
-}
 /* 主体部分 */
 #section2 {
     display: flex;
