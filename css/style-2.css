@@ -71,7 +71,7 @@
 .sec2_main_body_content_left {
     float: left;
     padding-top: 5%;
-    width: 20%;
+    width: 40%;
     height: 90%;
     display: flex;
     flex-direction: column;
@@ -79,7 +79,7 @@
 .sec2_main_body_content_left p {
     flex: 1;
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     text-align: left;
     font-size: 20px;
@@ -89,10 +89,11 @@
 }
 .sec2_main_body_content_right {
     float: right;
-    width: 80%;
+    width: 50%;
     height: 90%;
     display: flex;
     justify-content: center;
+    padding-top:5%;
     align-items: center
 }
 .sec2_main_body_content_right img {
