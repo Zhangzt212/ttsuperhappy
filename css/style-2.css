@@ -70,7 +70,8 @@
 /* sec2_main_body */
 .sec2_main_body_content_left {
     float: left;
-    padding-top: 5%;
+    padding-top: 10%;
+    padding-left: 5%;
     width: 40%;
     height: 90%;
     display: flex;
