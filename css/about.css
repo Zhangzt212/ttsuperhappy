@@ -431,7 +431,7 @@ body{
 	-moz-box-sizing:border-box;
 	-webkit-box-sizing:border-box;
 	font-family:STSong,华文宋体;
-    letter-spacing: 1.2px;
+    letter-spacing: 0.16vw;
 	font-weight:normal
 }
 html {
